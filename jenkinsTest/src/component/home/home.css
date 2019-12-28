@@ -1,0 +1,102 @@
+.menuContainer{
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+    color:#fff;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.card-container a{
+    color: #20da4bf5;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.card-container a:hover{
+    text-decoration:none
+}
+.headerContaoner{
+    height: 100px;
+    background-color: lavender;
+}
+.contentContainer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: repeating-linear-gradient(#ffffff,#ffffff 95%, #f2f2f2 0,#f2f2f2 100%);
+    background-size: 100% 20px ;
+}
+.card-container{
+    width: 1200px;
+    height: 780px;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    font-size: 0;
+    box-sizing: content-box;
+    padding: 10px 0;
+}
+.simple-content{
+    width: 1200px;
+    height: 800px;
+    bottom: 0;
+    border: #a6ffbf solid thin;
+    margin: auto;
+    position: absolute;
+    box-sizing: content-box;
+}
+.editIcon{
+    float: right;
+    margin: 5px;
+    width: 16px!important;
+    height: 16px!important;
+}
+.webContainer{
+    width: 1200px;
+    height: 882px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    box-sizing: content-box;
+}
+.simple-head{
+    width: 1200px;
+    height: 60px;
+    top: 0;
+    margin: auto;
+    border: #a6ffbf solid thin;
+    position: absolute;
+    box-sizing: content-box;
+}
+.simple-head-title{
+    height: 60px;
+    max-width: 700px;
+    float: left;
+    line-height: 60px;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.simple-head .simple-head-operation{
+    height: 60px;
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+    line-height: 60px;
+    font-size: 40px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.userLogin{
+    cursor: pointer;
+}
+.outHome{
+    margin-left: 20px;
+}

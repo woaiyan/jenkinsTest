@@ -1,0 +1,31 @@
+.AccountsContainer{
+    width: 100%;
+    height: 100%;
+}
+.accountItem{
+    width: 350px;
+    height: 200px;
+    border: rgba(77, 77, 77, 0.2) solid thin;
+    margin: 30px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    vertical-align: top;
+    box-shadow:1px 1px 5px #888888;
+}
+.AccountsContainer header{
+    text-align: center;
+    margin: 18px;
+}
+.accountItemAccount{
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 57px;
+}
+.editIcon{
+    float: right;
+    margin: 5px;
+}
+.editIcon:hover{
+    cursor: pointer;
+}

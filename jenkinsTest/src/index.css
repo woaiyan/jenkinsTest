@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 华文宋体!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+input[type=text]{
+  outline: none;
+  border:none;
+  padding: 0 10px 10px 10px;
+  background-color: #f7f7f7;
+  border-bottom:#20da4bf5 solid thin;
+}
+input[type=text]:focus{
+  background-color: #f7f7f7;
+  border-bottom: rgba(218, 18, 8, 0.96) solid thin;
+}
+textarea{
+  outline: none;
+  background-color: #f7f7f7;
+  border:#20da4bf5 solid thin;
+}
+textarea:focus{
+  outline: none;
+  background-color: #f7f7f7;
+  border:rgba(218, 18, 8, 0.96) solid thin;
+}
+*::-webkit-scrollbar
+{
+  width: 4px;
+  height: 4px;
+  background-color: rgba(218, 18, 8, 0.96);
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+*::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/*定义滑块 内阴影+圆角*/
+*::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #20da4bf5;
+  background-color: #555;
+}
+select{
+  height: 30px;
+  border-color: #29db52;
+  outline: none;
+}

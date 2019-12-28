@@ -1,0 +1,40 @@
+.CommonNetItem {
+    height: 50px;
+    position: relative;
+    border-bottom: #cecece solid thin;
+    box-sizing: content-box;
+}
+.CommonNetItem .editIcon{
+    margin-top: 15px;
+}
+.CommonNetItem .editIcon:hover{
+    cursor: pointer;
+}
+.CommonNetItem-name{
+    width: 1190px;
+    height: 44px;
+    position: absolute;
+    margin: 5px;
+    top: 3px;
+    left: 5px;
+}
+.CommonNetItem-site{
+    width: 1170px;
+    height: 44px;
+    position: absolute;
+    display: none;
+    top: 3px;
+    left: 5px;
+}
+.CommonNetItem:hover .CommonNetItem-name{
+    display: none;
+}
+.CommonNetItem:hover .CommonNetItem-site{
+    display: block;
+    cursor: pointer;
+    background-color: #a6ffbf;
+}
+.CommonNetItem .line{
+    line-height: 44px;
+    text-align: center;
+}

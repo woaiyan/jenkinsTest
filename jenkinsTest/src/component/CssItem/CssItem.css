@@ -1,0 +1,54 @@
+.CssItem{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*.CssItemCopy{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background-color: rgb(166, 255, 191);*/
+    /*display: none;*/
+    /*line-height: 100px;*/
+    /*text-align: center;*/
+/*}*/
+.CssItemContainer{
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    margin: 10px;
+    border: #a6ffbf solid thin;
+    position: relative;
+}
+/*.CssItemContainer:hover .CssItemCopy{*/
+    /*display: block;*/
+    /*cursor: pointer;*/
+/*}*/
+.CssItemSvg{
+    font-size: 24px;
+    cursor: pointer;
+}
+.cssItemOperation{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.cssItemOperation .cssItemMask{
+    width: 100%;
+    height: 50%;
+    line-height: 50px;
+    text-align: center;
+    background-color: #22262aba;
+}
+.CssItemContainer:hover .cssItemOperation{
+    display: block;
+}
+.cssItemMask:hover{
+    cursor: pointer;
+    background-color: rgba(34, 38, 42, 0.85);
+}

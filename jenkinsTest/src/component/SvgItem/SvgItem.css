@@ -1,0 +1,40 @@
+.svgContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 0;
+}
+.svgImg{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    font-size: 30px;
+}
+.svgImgContainer{
+    display: inline-block;
+}
+.svgImgMask{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    display: none;
+    top: 0;
+}
+.svgImgMaskOperation{
+    width: 60px;
+    height: 30px;
+    background-color: #22262aba;
+    line-height: 30px;
+    text-align: center;
+}
+.svgImgMaskOperation:hover{
+    background-color: rgba(34, 38, 42, 0.85);
+}
+.svgImgContainer:hover .svgImgMask{
+    display: block;
+    cursor: pointer;
+}
+.svgItemSvg{
+    font-size: 18px;
+    vertical-align: middle;
+}

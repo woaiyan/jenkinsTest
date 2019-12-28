@@ -1,0 +1,19 @@
+.card-item-container{
+    width: 350px;
+    height: 200px;
+    border: rgba(0, 255, 72, .2) solid thin;
+    margin: 30px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    background: linear-gradient(#ffffff,rgba(0, 255, 72, .2));
+    vertical-align: top;
+    font-size: 60px;
+    line-height: 200px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+.card-item-container:hover{
+    box-shadow: 10px 10px 5px #888888;
+}

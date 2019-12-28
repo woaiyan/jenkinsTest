@@ -1,0 +1,46 @@
+.modal-item-container{
+    margin: auto;
+    width: 500px;
+    background-color: #ffffff;
+    border: #00d3ff5e solid thin;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    min-height: 150px;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(204, 204, 204, .5);
+    z-index: 9999;
+}
+.mask-container{
+    position: relative;
+}
+.closeIcon{
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+}
+.closeIcon:hover{
+    color:#000;
+}
+.modal-item-container-head{
+    width: 100%;
+    height: 30px;
+}
+.modal-item-container-foot{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+.modal-item-container button{
+    float: right;
+    margin: 5px;
+    margin-right: 20px;
+}
+.title-container{
+    float: left;
+    margin: 5px;
+}

@@ -1,0 +1,82 @@
+.pictureContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.rightBar{
+    width: 150px;
+    height: 790px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    border-left: #a6ffbf solid thin;
+    box-sizing: content-box;
+    overflow: auto;
+}
+.pictureBig{
+    width: 1000px;
+    height: 750px;
+    margin: 20px;
+    position: absolute;
+}
+.pictureSmall{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    border-bottom: #a6ffbf solid thin;
+    overflow: hidden;
+}
+.pictureSmall:hover{
+    border-bottom: rgba(218, 18, 8, 0.96) solid thin;
+    cursor: pointer;
+}
+.pictureSmall:hover .pictureMask {
+  bottom: 0;
+}
+
+.pictureSmall img{
+    position: absolute;
+    display: block;
+    max-width: 150px;
+    max-height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px 0;
+}
+.pictureBig img{
+    position: absolute;
+    display: block;
+    max-width: 1000px;
+    max-height: 750px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.pictureMask{
+    width: 100%;
+    height: 28px;
+    background-color: #22262a7a;
+    position: absolute;
+    bottom: -38px;
+    transition: bottom .4s;
+}
+.pictureOperate{
+    /*position: absolute;*/
+    /* top: 5px; */
+    /* right: 5px; */
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.pictureName{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    margin-left: 5px;
+}
